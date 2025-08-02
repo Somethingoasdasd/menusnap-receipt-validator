@@ -8,8 +8,7 @@ const app = express();
 app.use(express.json());
 
 // Your App Store Connect shared secret
-const APP_STORE_SHARED_SECRET = 'your-app-shared-secret-here';
-
+const APP_STORE_SHARED_SECRET = '12ab825df4b14e9199ea8e58113e044c';
 // Production App Store validation URL
 const APP_STORE_VALIDATION_URL = 'https://buy.itunes.apple.com/verifyReceipt';
 
